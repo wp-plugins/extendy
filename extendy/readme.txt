@@ -10,7 +10,7 @@ The Extendy plugin installs your toolbar from http://extendy.com on your blog.
 
 == Description ==
 
-This plugin installs the Extendy toolbar to your blog without having to make edits to any of your template files. Note that you must have an Extendy account, available for free at http://extendy.com.
+This plugin installs the Extendy toolbar to your blog without having to make edits to any of your template files. Note that you must have an Extendy account, available for free at http://extendy.com .
 
 
 == Installation ==
