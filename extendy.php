@@ -80,18 +80,13 @@ function extendy_verify_key_format($v){
 function extendy_query_details($key){
   $endpoint = extendy_api_endpoint($key);
   // Simplest way to query a URI...
-  try {
-    $result = file_get_contents($endpoint);
-    $result_xml = simplexml_load_string($result);
-    if($result_xml->getName() == 'campaign'){
-      return array('id' => ((int)$result_xml['id']), 'name' => ((string)$result_xml->name));
-    } else {
-      return null;
-    }
-  } catch (Exception $e){
+  $result = file_get_contents($endpoint);
+  $result_xml = simplexml_load_string($result);
+  if($result_xml->getName() == 'campaign'){
+    return array('id' => ((int)$result_xml['id']), 'name' => ((string)$result_xml->name));
+  } else {
     return null;
   }
-  
 }
 
 function extendy_conf(){
