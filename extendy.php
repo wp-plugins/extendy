@@ -8,8 +8,6 @@ Author: Mason Browne
 Author URI: http://www.extendy.com/
 */
 
-$EXTENDY_DEBUG = 1;
-
 if($EXTENDY_DEBUG){
   $EXTENDY_API_DOMAIN = "http://extendy.local:3000";
 } else {
