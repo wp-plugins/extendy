@@ -2,7 +2,7 @@
 /*
 Plugin Name: Extendy
 Plugin URI: http://www.extendy.com/
-Description: The Extendy plugin installs your toolbar from http://extendy.com on your blog.
+Description: The Extendy plugin installs your toolbar from http://extendy.com on your blog. Requires PHP 5.2.x+ with SimpleXML and URL file-access enabled.
 Version: 0.1.2
 Author: Mason Browne
 Author URI: http://www.extendy.com/
