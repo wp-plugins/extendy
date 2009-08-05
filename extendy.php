@@ -3,7 +3,7 @@
 Plugin Name: Extendy
 Plugin URI: http://www.extendy.com/
 Description: The Extendy plugin installs your toolbar from http://extendy.com on your blog.
-Version: 0.1.1
+Version: 0.1.2
 Author: Mason Browne
 Author URI: http://www.extendy.com/
 */
